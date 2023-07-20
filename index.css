@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #b4b4d0;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header__top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.header__contacts{
+}
