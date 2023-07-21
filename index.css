@@ -8,6 +8,10 @@ html {
     box-sizing: inherit;
 }
 
+ul{
+    list-style: none;
+}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -22,16 +26,31 @@ html {
     align-items: center;
     flex-direction: column;
 }
-.header__top{
+
+.header__top {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.menu__list{
+
+.menu__list {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
-.header__contacts{
+
+.header__contacts {
+    display: flex;
+    gap: 30px;
+}
+
+.logo__description {
+    text-align: left;
+    color: #E4E5EA;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
